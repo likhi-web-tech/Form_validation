@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <div class="login">
+       <div class="form-container">
+            <!-- Login Form -->
+            <form class="form login-form active">
+                <h1>Login</h1>
+                <div class="input-box">
+                <input type="text" placeholder="Username" required>
+                <i class='bx bxs-user'></i>
+                </div>
+                <div class="input-box">
+                <input type="password" placeholder="Password" required>
+                <i class='bx bxs-lock-alt'></i>
+                </div>
+                <div class="remember-forgot">
+                <label><input type="checkbox">Remember me</label>
+                <a href="#" class="show-forgot">Forgot password?</a>
+                </div>
+                <button type="submit" class="button">Login</button>
+                <div class="register-link">
+                <p>Don't have an account? <a href="#" class="show-register">Register</a></p>
+                </div>
+            </form>
+
+            <!-- Register Form -->
+            <form class="form register-form">
+                <h1>Register</h1>
+                <div class="input-box">
+                <input type="text" placeholder="Username" required>
+                <i class='bx bxs-user'></i>
+                </div>
+                <div class="input-box">
+                <input type="email" placeholder="Email" required>
+                <i class='bx bxs-envelope'></i>
+                </div>
+                <div class="input-box">
+                <input type="password" placeholder="Password" required>
+                <i class='bx bxs-lock-alt'></i>
+                </div>
+                <button type="submit" class="button">Register</button>
+                <div class="register-link">
+                <p>Already have an account? <a href="#" class="show-login">Login</a></p>
+                </div>
+            </form>
+
+            <!-- Forgot Password Form -->
+            <form class="form forgot-form">
+                <h1>Reset Password</h1>
+                <div class="input-box">
+                <input type="email" placeholder="Enter your email" required>
+                <i class='bx bxs-envelope'></i>
+                </div>
+                <button type="submit" class="button">Send Reset Link</button>
+                <div class="register-link">
+                <p>Back to <a href="#" class="show-login">Login</a></p>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</body>
+<script src="Js/main.js"></script>
+</html>
